@@ -108,7 +108,7 @@ mov es,ax
         cmp al,49 ;mnemonio 31h = 1 en hexadecimal, ascii 49
 		je video
 		cmp al,50 ;mnemonio 32h = 2 en hexadecimal, ascii 50
-		je menu
+		je salir
 		cmp al,51 ;mnemonio 33h = 3 en hexadecimal, ascii 51
 		je salir
         cmp al,52 ;mnemonio 34h = 4 en hexadecimal, ascii 52
